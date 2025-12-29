@@ -1,0 +1,778 @@
+===== Tree 0 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=31182.543,cover=164358.719
+	1:[physical_activity_minutes_per_week<76] yes=3,no=4,missing=4,gain=13838.4141,cover=139803.281
+		3:[age<50] yes=7,no=8,missing=8,gain=5336.55566,cover=76743.5469
+			7:[age<29] yes=15,no=16,missing=16,gain=1232.55505,cover=35655.9805
+				15:[age<24] yes=31,no=32,missing=32,gain=76.5161133,cover=2126.09741
+					31:[ldl_cholesterol<105] yes=63,no=64,missing=64,gain=21.404541,cover=539.33136
+						63:leaf=-0.407478184,cover=410.661987
+						64:leaf=-0.262743711,cover=128.669388
+					32:[physical_activity_minutes_per_week<65] yes=65,no=66,missing=66,gain=34.3463135,cover=1586.76599
+						65:leaf=-0.221076146,cover=1301.95581
+						66:leaf=-0.336997509,cover=284.810181
+				16:[bmi<26.2999992] yes=33,no=34,missing=34,gain=999.10553,cover=33529.8828
+					33:[age<42] yes=67,no=68,missing=68,gain=319.383545,cover=18642.5039
+						67:leaf=-0.12776196,cover=8826.29785
+						68:leaf=-0.0491114557,cover=9816.20703
+					34:[triglycerides<141] yes=69,no=70,missing=70,gain=211.465225,cover=14887.3779
+						69:leaf=-0.00778480386,cover=9827.47754
+						70:leaf=0.0676941127,cover=5059.90039
+			8:[age<68] yes=17,no=18,missing=18,gain=1561.62842,cover=41087.5664
+				17:[bmi<25.6000004] yes=35,no=36,missing=36,gain=750.634277,cover=35220.8984
+					35:[physical_activity_minutes_per_week<57] yes=71,no=72,missing=72,gain=208.877625,cover=15084.373
+						71:leaf=0.0579072125,cover=9284.8584
+						72:leaf=-0.0146575477,cover=5799.51465
+					36:[triglycerides<135] yes=73,no=74,missing=74,gain=266.478271,cover=20136.5254
+						73:leaf=0.0885083973,cover=11470.8291
+						74:leaf=0.15822725,cover=8665.69629
+				18:[age<72] yes=37,no=38,missing=38,gain=161.196289,cover=5866.66699
+					37:[bmi<27] yes=75,no=76,missing=76,gain=41.0574951,cover=3298.67944
+						75:leaf=0.175365135,cover=1929.33655
+						76:leaf=0.243648365,cover=1369.3429
+					38:[waist_to_hip_ratio<0.850000024] yes=77,no=78,missing=78,gain=15.3103027,cover=2567.98755
+						77:leaf=0.267291605,cover=762.389648
+						78:leaf=0.319637686,cover=1805.5979
+		4:[physical_activity_minutes_per_week<133] yes=9,no=10,missing=10,gain=5508.60742,cover=63059.7422
+			9:[age<49] yes=19,no=20,missing=20,gain=3529.06348,cover=48682.582
+				19:[bmi<26.7999992] yes=39,no=40,missing=40,gain=586.983398,cover=21916.0605
+					39:[age<28] yes=79,no=80,missing=80,gain=361.723633,cover=14154.1025
+						79:leaf=-0.446965426,cover=697.585327
+						80:leaf=-0.225369245,cover=13456.5176
+					40:[age<32] yes=81,no=82,missing=82,gain=227.328125,cover=7761.95752
+						81:leaf=-0.277397007,cover=877.440735
+						82:leaf=-0.115270384,cover=6884.51709
+				20:[age<68] yes=41,no=42,missing=42,gain=1342.60925,cover=26766.5215
+					41:[triglycerides<141] yes=83,no=84,missing=84,gain=581.976807,cover=23282.5859
+						83:leaf=-0.0883290246,cover=18305.5684
+						84:leaf=0.0273603275,cover=4977.0166
+					42:[age<72] yes=85,no=86,missing=86,gain=166.563354,cover=3483.93506
+						85:leaf=0.0781370625,cover=1959.39062
+						86:leaf=0.210405052,cover=1524.54443
+			10:[age<61] yes=21,no=22,missing=22,gain=929.166016,cover=14377.1611
+				21:[physical_activity_minutes_per_week<194] yes=43,no=44,missing=44,gain=510.689453,cover=11746.9521
+					43:[age<42] yes=87,no=88,missing=88,gain=273.366211,cover=7944.63086
+						87:leaf=-0.39455986,cover=2604.38135
+						88:leaf=-0.275791556,cover=5340.24951
+					44:[heart_rate<62] yes=89,no=90,missing=90,gain=128.862305,cover=3802.32153
+						89:leaf=-0.381179839,cover=1544.26758
+						90:leaf=-0.494574547,cover=2258.05396
+				22:[age<68] yes=45,no=46,missing=46,gain=200.842773,cover=2630.20898
+					45:[physical_activity_minutes_per_week<217] yes=91,no=92,missing=92,gain=85.449646,cover=1706.51306
+						91:leaf=-0.184622064,cover=1311.11292
+						92:leaf=-0.344069034,cover=395.400116
+					46:[physical_activity_minutes_per_week<194] yes=93,no=94,missing=94,gain=49.2416725,cover=923.695984
+						93:leaf=-0.00180656218,cover=639.59021
+						94:leaf=-0.15172036,cover=284.105774
+	2:[physical_activity_minutes_per_week<103] yes=5,no=6,missing=6,gain=700.720703,cover=24555.4258
+		5:[age<49] yes=11,no=12,missing=12,gain=290.894531,cover=20237.0195
+			11:[bmi<24.6000004] yes=23,no=24,missing=24,gain=102.724121,cover=8475.74414
+				23:[age<27] yes=47,no=48,missing=48,gain=55.8447266,cover=2709.80566
+					47:[screen_time_hours_per_day<5.9000001] yes=95,no=96,missing=96,gain=8.03042412,cover=90.1624908
+						95:leaf=-0.0780324638,cover=44.3768539
+						96:leaf=0.0991158858,cover=45.7856407
+					48:[physical_activity_minutes_per_week<54] yes=97,no=98,missing=98,gain=48.480957,cover=2619.64307
+						97:leaf=0.301159441,cover=1082.41956
+						98:leaf=0.217708856,cover=1537.22363
+				24:[age<29] yes=49,no=50,missing=50,gain=51.4765625,cover=5765.93848
+					49:[physical_activity_minutes_per_week<58] yes=99,no=100,missing=100,gain=13.0079498,cover=307.585602
+						99:leaf=0.260366917,cover=145.10527
+						100:leaf=0.135207757,cover=162.480331
+					50:[physical_activity_minutes_per_week<57] yes=101,no=102,missing=102,gain=35.4404297,cover=5458.35303
+						101:leaf=0.349243432,cover=2460.44995
+						102:leaf=0.29988569,cover=2997.90283
+			12:[age<61] yes=25,no=26,missing=26,gain=61.3242188,cover=11761.2744
+				25:[physical_activity_minutes_per_week<56] yes=51,no=52,missing=52,gain=41.9501953,cover=7464.46826
+					51:[triglycerides<140] yes=103,no=104,missing=104,gain=9.14697266,cover=3281.30444
+						103:leaf=0.364707708,cover=2442.13574
+						104:leaf=0.403969318,cover=839.16864
+					52:[bmi<22.7000008] yes=105,no=106,missing=106,gain=20.4106445,cover=4183.16406
+						105:leaf=0.270321578,cover=500.354889
+						106:leaf=0.336711794,cover=3682.80908
+				26:[age<69] yes=53,no=54,missing=54,gain=17.940918,cover=4296.80615
+					53:[bmi<26.7999992] yes=107,no=108,missing=108,gain=10.8637695,cover=2928.16797
+						107:leaf=0.363832593,cover=1693.59912
+						108:leaf=0.403468728,cover=1234.56873
+					54:[physical_activity_minutes_per_week<56] yes=109,no=110,missing=110,gain=2.80517578,cover=1368.63855
+						109:leaf=0.443874717,cover=604.840088
+						110:leaf=0.408115,cover=763.798401
+		6:[age<50] yes=13,no=14,missing=14,gain=169.890747,cover=4318.40771
+			13:[physical_activity_minutes_per_week<169] yes=27,no=28,missing=28,gain=114.347046,cover=2037.57849
+				27:[age<27] yes=55,no=56,missing=56,gain=34.7051392,cover=1608.13257
+					55:[diet_score<6.5999999] yes=111,no=112,missing=112,gain=9.46656036,cover=50.0120087
+						111:leaf=-0.166478634,cover=31.697752
+						112:leaf=0.0991433561,cover=18.3142567
+					56:[physical_activity_minutes_per_week<133] yes=113,no=114,missing=114,gain=26.7335205,cover=1558.12061
+						113:leaf=0.209622964,cover=1082.88916
+						114:leaf=0.123752505,cover=475.231476
+				28:[bmi<24.6000004] yes=57,no=58,missing=58,gain=21.8731499,cover=429.445831
+					57:[heart_rate<67] yes=115,no=116,missing=116,gain=13.6203547,cover=200.987228
+						115:leaf=-0.0194396712,cover=141.348495
+						116:leaf=-0.189567521,cover=59.6387329
+					58:[heart_rate<69] yes=117,no=118,missing=118,gain=8.65060425,cover=228.458618
+						117:leaf=0.0948168635,cover=180.324982
+						118:leaf=-0.0474763922,cover=48.133625
+			14:[physical_activity_minutes_per_week<156] yes=29,no=30,missing=30,gain=56.7940674,cover=2280.82935
+				29:[age<63] yes=59,no=60,missing=60,gain=27.3049316,cover=1710.97424
+					59:[triglycerides<130] yes=119,no=120,missing=120,gain=15.0046387,cover=1176.57361
+						119:leaf=0.232602552,cover=739.144592
+						120:leaf=0.304359496,cover=437.428986
+					60:[systolic_bp<128] yes=121,no=122,missing=122,gain=4.00067139,cover=534.400635
+						121:leaf=0.317570806,cover=320.734283
+						122:leaf=0.378449053,cover=213.666336
+				30:[age<65] yes=61,no=62,missing=62,gain=19.7674103,cover=569.855164
+					61:[bmi<26] yes=123,no=124,missing=124,gain=12.4420929,cover=432.028625
+						123:leaf=0.103097796,cover=268.374298
+						124:leaf=0.208733469,cover=163.654312
+					62:[systolic_bp<137] yes=125,no=126,missing=126,gain=5.81691742,cover=137.826523
+						125:leaf=0.243845657,cover=115.990295
+						126:leaf=0.420824707,cover=21.8362293
+
+
+===== Tree 1 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=17133.6289,cover=163043.828
+	1:[physical_activity_minutes_per_week<95] yes=3,no=4,missing=4,gain=6871.69141,cover=140827.141
+		3:[age<54] yes=7,no=8,missing=8,gain=3881.53662,cover=102190.836
+			7:[physical_activity_minutes_per_week<57] yes=15,no=16,missing=16,gain=1028.5083,cover=61897.2188
+				15:[age<41] yes=31,no=32,missing=32,gain=508.521851,cover=28058.9473
+					31:[bmi<23.2999992] yes=63,no=64,missing=64,gain=192.477112,cover=9914.07715
+						63:leaf=-0.144130871,cover=1811.26086
+						64:leaf=-0.0359713957,cover=8102.81592
+					32:[bmi<23.6000004] yes=65,no=66,missing=66,gain=282.653381,cover=18144.8691
+						65:leaf=-0.0477242656,cover=3508.47021
+						66:leaf=0.0470746867,cover=14636.3994
+				16:[bmi<25.5] yes=33,no=34,missing=34,gain=561.382568,cover=33838.2734
+					33:[age<38] yes=67,no=68,missing=68,gain=234.950195,cover=14916.4121
+						67:leaf=-0.188324854,cover=3661.67749
+						68:leaf=-0.100818925,cover=11254.7344
+					34:[age<34] yes=69,no=70,missing=70,gain=239.416473,cover=18921.8613
+						69:leaf=-0.13434875,cover=2337.36743
+						70:leaf=-0.0318065733,cover=16584.4941
+			8:[age<69] yes=17,no=18,missing=18,gain=916.87915,cover=40293.6211
+				17:[physical_activity_minutes_per_week<57] yes=35,no=36,missing=36,gain=613.766846,cover=34284.2227
+					35:[triglycerides<101] yes=71,no=72,missing=72,gain=273.5448,cover=15769.9736
+						71:leaf=0.013585723,cover=2695.9646
+						72:leaf=0.118542179,cover=13074.0088
+					36:[triglycerides<106] yes=73,no=74,missing=74,gain=280.482025,cover=18514.248
+						73:leaf=-0.0483811013,cover=4173.0459
+						74:leaf=0.039981246,cover=14341.2021
+				18:[age<72] yes=37,no=38,missing=38,gain=112.042969,cover=6009.39893
+					37:[physical_activity_minutes_per_week<66] yes=75,no=76,missing=76,gain=44.1539917,cover=2898.60156
+						75:leaf=0.171739057,cover=1745.00562
+						76:leaf=0.0959327072,cover=1153.59595
+					38:[physical_activity_minutes_per_week<57] yes=77,no=78,missing=78,gain=30.2513428,cover=3110.79736
+						77:leaf=0.255108654,cover=1473.18982
+						78:leaf=0.19533515,cover=1637.60754
+		4:[age<50] yes=9,no=10,missing=10,gain=1370.8877,cover=38636.3047
+			9:[physical_activity_minutes_per_week<156] yes=19,no=20,missing=20,gain=579.789062,cover=19388.1602
+				19:[triglycerides<135] yes=39,no=40,missing=40,gain=220.006836,cover=14651.8057
+					39:[age<28] yes=79,no=80,missing=80,gain=127.095703,cover=10702.8066
+						79:leaf=-0.335589528,cover=542.604492
+						80:leaf=-0.186455995,cover=10160.2021
+					40:[age<29] yes=81,no=82,missing=82,gain=76.3638916,cover=3948.99902
+						81:leaf=-0.2802791,cover=225.791473
+						82:leaf=-0.100814685,cover=3723.20752
+				20:[bmi<29.2999992] yes=41,no=42,missing=42,gain=86.5,cover=4736.354
+					41:[age<28] yes=83,no=84,missing=84,gain=55.8662109,cover=4363.36182
+						83:leaf=-0.453750849,cover=216.786255
+						84:leaf=-0.29644084,cover=4146.57568
+					42:[age<34] yes=85,no=86,missing=86,gain=21.5021133,cover=372.992035
+						85:leaf=-0.313073605,cover=62.3597527
+						86:leaf=-0.120207541,cover=310.632294
+			10:[physical_activity_minutes_per_week<143] yes=21,no=22,missing=22,gain=678.71167,cover=19248.1445
+				21:[age<63] yes=43,no=44,missing=44,gain=411.283234,cover=13411.0762
+					43:[triglycerides<128] yes=87,no=88,missing=88,gain=149.337769,cover=9601.72559
+						87:leaf=-0.114315622,cover=5814.04492
+						88:leaf=-0.037752483,cover=3787.68115
+					44:[age<72] yes=89,no=90,missing=90,gain=109.136978,cover=3809.34985
+						89:leaf=0.00765258493,cover=3080.39551
+						90:leaf=0.136669978,cover=728.954285
+				22:[triglycerides<141] yes=45,no=46,missing=46,gain=177.107544,cover=5837.06885
+					45:[age<72] yes=91,no=92,missing=92,gain=118.52124,cover=4679.92676
+						91:leaf=-0.210786983,cover=4434.93994
+						92:leaf=0.00354745728,cover=244.986679
+					46:[bmi<31.5] yes=93,no=94,missing=94,gain=32.9783516,cover=1157.14221
+						93:leaf=-0.0829260498,cover=1069.54492
+						94:leaf=0.107678607,cover=87.5971985
+	2:[physical_activity_minutes_per_week<103] yes=5,no=6,missing=6,gain=482.762695,cover=22216.6797
+		5:[age<43] yes=11,no=12,missing=12,gain=226.525391,cover=18153.8965
+			11:[bmi<24.7000008] yes=23,no=24,missing=24,gain=64.8918457,cover=4489.0708
+				23:[age<27] yes=47,no=48,missing=48,gain=24.5451965,cover=1546.16187
+					47:[diet_score<3.0999999] yes=95,no=96,missing=96,gain=7.48401308,cover=92.4283829
+						95:leaf=-0.488245577,cover=1.65229034
+						96:leaf=0.0229517166,cover=90.7760925
+					48:[physical_activity_minutes_per_week<44] yes=97,no=98,missing=98,gain=20.4841919,cover=1453.73352
+						97:leaf=0.230592683,cover=359.578613
+						98:leaf=0.147523671,cover=1094.15491
+				24:[age<28] yes=49,no=50,missing=50,gain=27.9313965,cover=2942.90869
+					49:[physical_activity_minutes_per_week<58] yes=99,no=100,missing=100,gain=9.5372467,cover=215.095932
+						99:leaf=0.198017105,cover=98.8612671
+						100:leaf=0.0706271604,cover=116.234657
+					50:[physical_activity_minutes_per_week<64] yes=101,no=102,missing=102,gain=16.1057129,cover=2727.81274
+						101:leaf=0.264098436,cover=1511.01355
+						102:leaf=0.216806769,cover=1216.79919
+			12:[age<59] yes=25,no=26,missing=26,gain=84.1757812,cover=13664.8262
+				25:[physical_activity_minutes_per_week<57] yes=51,no=52,missing=52,gain=56.4018555,cover=9007.26367
+					51:[bmi<20.8999996] yes=103,no=104,missing=104,gain=18.0957031,cover=4050.94238
+						103:leaf=0.187279597,cover=139.752441
+						104:leaf=0.299668282,cover=3911.18994
+					52:[waist_to_hip_ratio<0.850000024] yes=105,no=106,missing=106,gain=35.8884277,cover=4956.32129
+						105:leaf=0.212740228,cover=1742.00964
+						106:leaf=0.266702473,cover=3214.31152
+				26:[age<71] yes=53,no=54,missing=54,gain=19.4262695,cover=4657.5625
+					53:[bmi<27] yes=107,no=108,missing=108,gain=15.8120117,cover=3865.2395
+						107:leaf=0.294248134,cover=2347.27368
+						108:leaf=0.334834099,cover=1517.9657
+					54:[ldl_cholesterol<72] yes=109,no=110,missing=110,gain=3.8125,cover=792.323242
+						109:leaf=0.130949333,cover=7.73578596
+						110:leaf=0.365410149,cover=784.587463
+		6:[age<41] yes=13,no=14,missing=14,gain=109.7146,cover=4062.78198
+			13:[bmi<27.2999992] yes=27,no=28,missing=28,gain=40.1530876,cover=889.2724
+				27:[physical_activity_minutes_per_week<174] yes=55,no=56,missing=56,gain=27.6554813,cover=664.856506
+					55:[triglycerides<113] yes=111,no=112,missing=112,gain=8.27505684,cover=518.556641
+						111:leaf=0.0129339565,cover=233.37027
+						112:leaf=0.0891139582,cover=285.18634
+					56:[ldl_cholesterol<90] yes=113,no=114,missing=114,gain=7.36015892,cover=146.299896
+						113:leaf=-0.170920894,cover=61.1566086
+						114:leaf=-0.0346067511,cover=85.1432877
+				28:[age<27] yes=57,no=58,missing=58,gain=13.2484589,cover=224.415863
+					57:[physical_activity_minutes_per_week<121] yes=115,no=116,missing=116,gain=6.50305939,cover=13.0483875
+						115:leaf=-0.345681459,cover=5.26011562
+						116:leaf=0.0587948449,cover=7.7882719
+					58:[diet_score<8.19999981] yes=117,no=118,missing=118,gain=12.9515686,cover=211.367477
+						117:leaf=0.203635529,cover=201.482742
+						118:leaf=-0.137275189,cover=9.88473988
+			14:[physical_activity_minutes_per_week<141] yes=29,no=30,missing=30,gain=73.4180908,cover=3173.50952
+				29:[age<61] yes=59,no=60,missing=60,gain=27.9817505,cover=2017.99683
+					59:[bmi<29] yes=119,no=120,missing=120,gain=22.7094727,cover=1493.91821
+						119:leaf=0.176653177,cover=1276.59265
+						120:leaf=0.282290518,cover=217.325623
+					60:[ldl_cholesterol<69] yes=121,no=122,missing=122,gain=5.05883789,cover=524.078552
+						121:leaf=-0.0149379,cover=5.31886482
+						122:leaf=0.276406407,cover=518.759644
+				30:[age<65] yes=61,no=62,missing=62,gain=27.6605072,cover=1155.5127
+					61:[heart_rate<67] yes=123,no=124,missing=124,gain=19.437912,cover=975.337891
+						123:leaf=0.130844831,cover=612.287109
+						124:leaf=0.0430943593,cover=363.050781
+					62:[ldl_cholesterol<92] yes=125,no=126,missing=126,gain=4.11190796,cover=180.174866
+						125:leaf=0.112479433,cover=27.114439
+						126:leaf=0.245544776,cover=153.060425
+
+
+===== Tree 2 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=9628.50879,cover=160419.609
+	1:[physical_activity_minutes_per_week<77] yes=3,no=4,missing=4,gain=3468.43823,cover=140513.859
+		3:[age<59] yes=7,no=8,missing=8,gain=1724.57422,cover=76978.0469
+			7:[ldl_cholesterol<102] yes=15,no=16,missing=16,gain=851.368347,cover=58483.707
+				15:[triglycerides<101] yes=31,no=32,missing=32,gain=318.115356,cover=29819.0039
+					31:[ldl_cholesterol<81] yes=63,no=64,missing=64,gain=80.201416,cover=6137.57471
+						63:leaf=-0.156352282,cover=1869.93323
+						64:leaf=-0.0818042755,cover=4267.6416
+					32:[age<31] yes=65,no=66,missing=66,gain=250.891922,cover=23681.4297
+						65:leaf=-0.132475674,cover=1898.22913
+						66:leaf=-0.0187823772,cover=21783.1992
+				16:[triglycerides<125] yes=33,no=34,missing=34,gain=366.695282,cover=28664.7051
+					33:[physical_activity_minutes_per_week<33] yes=67,no=68,missing=68,gain=143.074875,cover=14349.0801
+						67:leaf=0.0713600218,cover=1905.75073
+						68:leaf=-0.0168896262,cover=12443.3291
+					34:[physical_activity_minutes_per_week<30] yes=69,no=70,missing=70,gain=118.03717,cover=14315.625
+						69:leaf=0.141727611,cover=1519.59644
+						70:leaf=0.0533006303,cover=12796.0283
+			8:[age<72] yes=17,no=18,missing=18,gain=231.012573,cover=18494.3418
+				17:[bmi<27.1000004] yes=35,no=36,missing=36,gain=211.687256,cover=16336.7148
+					35:[physical_activity_minutes_per_week<30] yes=71,no=72,missing=72,gain=90.5445251,cover=10210.958
+						71:leaf=0.144087911,cover=997.261963
+						72:leaf=0.0489495397,cover=9213.69629
+					36:[ldl_cholesterol<117] yes=73,no=74,missing=74,gain=51.8433838,cover=6125.75635
+						73:leaf=0.104482293,cover=3455.64355
+						74:leaf=0.160228521,cover=2670.11304
+				18:[bmi<25.7000008] yes=37,no=38,missing=38,gain=18.6889648,cover=2157.62622
+					37:[triglycerides<140] yes=75,no=76,missing=76,gain=8.48236084,cover=824.379944
+						75:leaf=0.140352353,cover=706.028992
+						76:leaf=0.228134587,cover=118.350945
+					38:[cholesterol_total<161] yes=77,no=78,missing=78,gain=10.145813,cover=1333.24634
+						77:leaf=-0.153631955,cover=6.16081858
+						78:leaf=0.213064149,cover=1327.08557
+		4:[age<61] yes=9,no=10,missing=10,gain=1220.38916,cover=63535.8086
+			9:[physical_activity_minutes_per_week<133] yes=19,no=20,missing=20,gain=934.632324,cover=51752.0352
+				19:[bmi<23.8999996] yes=39,no=40,missing=40,gain=440.341553,cover=39320.4375
+					39:[age<29] yes=79,no=80,missing=80,gain=68.9769287,cover=10177.4189
+						79:leaf=-0.251959592,cover=391.707123
+						80:leaf=-0.123561464,cover=9785.71094
+					40:[age<42] yes=81,no=82,missing=82,gain=317.517578,cover=29143.0176
+						81:leaf=-0.103454195,cover=8850.72949
+						82:leaf=-0.0353582874,cover=20292.2891
+				20:[physical_activity_minutes_per_week<194] yes=41,no=42,missing=42,gain=149.396729,cover=12431.5977
+					41:[heart_rate<66] yes=83,no=84,missing=84,gain=175.983765,cover=8431.59668
+						83:leaf=-0.0978927761,cover=3739.14478
+						84:leaf=-0.185183361,cover=4692.45215
+					42:[heart_rate<61] yes=85,no=86,missing=86,gain=63.3535156,cover=4000.00098
+						85:leaf=-0.166135564,cover=1431.30676
+						86:leaf=-0.245198324,cover=2568.69434
+			10:[physical_activity_minutes_per_week<143] yes=21,no=22,missing=22,gain=252.251282,cover=11783.7734
+				21:[bmi<27.1000004] yes=43,no=44,missing=44,gain=148.732895,cover=9567.47266
+					43:[age<72] yes=87,no=88,missing=88,gain=69.0992203,cover=5971.79736
+						87:leaf=-0.0111459857,cover=5167.19482
+						88:leaf=0.0833151788,cover=804.6026
+					44:[bmi<30.2999992] yes=89,no=90,missing=90,gain=62.7073212,cover=3595.67554
+						89:leaf=0.0586207621,cover=2856.26904
+						90:leaf=0.156641856,cover=739.406677
+				22:[triglycerides<125] yes=45,no=46,missing=46,gain=51.4708252,cover=2216.30029
+					45:[age<69] yes=91,no=92,missing=92,gain=27.701355,cover=1220.39014
+						91:leaf=-0.149724409,cover=903.292297
+						92:leaf=-0.0464830324,cover=317.09787
+					46:[age<72] yes=93,no=94,missing=94,gain=25.4280357,cover=995.910095
+						93:leaf=-0.0517971478,cover=838.562805
+						94:leaf=0.0792968199,cover=157.34726
+	2:[physical_activity_minutes_per_week<95] yes=5,no=6,missing=6,gain=361.170898,cover=19905.752
+		5:[age<49] yes=11,no=12,missing=12,gain=167.248047,cover=14991.5898
+			11:[bmi<26.7999992] yes=23,no=24,missing=24,gain=61.4550781,cover=6501.8623
+				23:[age<39] yes=47,no=48,missing=48,gain=35.1651611,cover=4035.01489
+					47:[ldl_cholesterol<60] yes=95,no=96,missing=96,gain=29.1575012,cover=1561.43982
+						95:leaf=-0.168724358,cover=28.8861637
+						96:leaf=0.13136816,cover=1532.55359
+					48:[physical_activity_minutes_per_week<54] yes=97,no=98,missing=98,gain=16.6494751,cover=2473.5752
+						97:leaf=0.212019309,cover=1062.70886
+						98:leaf=0.161765099,cover=1410.86646
+				24:[physical_activity_minutes_per_week<57] yes=49,no=50,missing=50,gain=17.6859131,cover=2466.84741
+					49:[ldl_cholesterol<87] yes=99,no=100,missing=100,gain=10.5093384,cover=1143.24146
+						99:leaf=0.186823681,cover=212.230896
+						100:leaf=0.263032258,cover=931.010559
+					50:[age<25] yes=101,no=102,missing=102,gain=17.8302002,cover=1323.60596
+						101:leaf=-0.0588284954,cover=23.6060257
+						102:leaf=0.202057287,cover=1299.99988
+			12:[age<68] yes=25,no=26,missing=26,gain=43.4472656,cover=8489.72754
+				25:[physical_activity_minutes_per_week<76] yes=51,no=52,missing=52,gain=31.7446289,cover=7348.81934
+					51:[ldl_cholesterol<118] yes=103,no=104,missing=104,gain=29.3620605,cover=5673.23242
+						103:leaf=0.236509204,cover=4061.73853
+						104:leaf=0.284918964,cover=1611.49353
+					52:[physical_activity_minutes_per_week<87] yes=105,no=106,missing=106,gain=15.3643799,cover=1675.58704
+						105:leaf=0.177297354,cover=950.967041
+						106:leaf=0.236103013,cover=724.619995
+				26:[bmi<20.1000004] yes=53,no=54,missing=54,gain=6.45898438,cover=1140.90808
+					53:[hdl_cholesterol<65] yes=107,no=108,missing=108,gain=3.92273879,cover=11.7791529
+						107:leaf=0.167973682,cover=9.01038742
+						108:leaf=-0.193720192,cover=2.76876521
+					54:[triglycerides<133] yes=109,no=110,missing=110,gain=5.09375,cover=1129.12891
+						109:leaf=0.286567092,cover=666.931946
+						110:leaf=0.331471384,cover=462.19696
+		6:[physical_activity_minutes_per_week<133] yes=13,no=14,missing=14,gain=94.8338013,cover=4914.16211
+			13:[age<50] yes=27,no=28,missing=28,gain=50.3117676,cover=3153.48877
+				27:[bmi<24.2000008] yes=55,no=56,missing=56,gain=29.1756287,cover=1519.16272
+					55:[screen_time_hours_per_day<3.29999995] yes=111,no=112,missing=112,gain=10.8016567,cover=499.72287
+						111:leaf=-0.0924305767,cover=38.4210358
+						112:leaf=0.0714540407,cover=461.301849
+					56:[diet_score<7] yes=113,no=114,missing=114,gain=13.1624298,cover=1019.43982
+						113:leaf=0.165647849,cover=791.943542
+						114:leaf=0.0831819102,cover=227.496262
+				28:[triglycerides<127] yes=57,no=58,missing=58,gain=16.8685303,cover=1634.32593
+					57:[age<63] yes=115,no=116,missing=116,gain=13.1280518,cover=930.816162
+						115:leaf=0.145161375,cover=678.428772
+						116:leaf=0.226114854,cover=252.387405
+					58:[systolic_bp<116] yes=117,no=118,missing=118,gain=6.50375366,cover=703.509827
+						117:leaf=0.182567552,cover=205.708664
+						118:leaf=0.248638883,cover=497.801178
+			14:[age<50] yes=29,no=30,missing=30,gain=41.4770584,cover=1760.67322
+				29:[heart_rate<67] yes=59,no=60,missing=60,gain=17.6714802,cover=879.586853
+					59:[physical_activity_minutes_per_week<259] yes=119,no=120,missing=120,gain=16.7092113,cover=516.0578
+						119:leaf=0.0893433541,cover=399.448547
+						120:leaf=-0.039427124,cover=116.609276
+					60:[hdl_cholesterol<43] yes=121,no=122,missing=122,gain=12.8868141,cover=363.529022
+						121:leaf=0.149633512,cover=33.1212692
+						122:leaf=-0.0440477468,cover=330.407745
+				30:[triglycerides<128] yes=61,no=62,missing=62,gain=13.5332642,cover=881.086426
+					61:[age<71] yes=123,no=124,missing=124,gain=13.2058296,cover=513.034546
+						123:leaf=0.0697442219,cover=468.531891
+						124:leaf=0.239522457,cover=44.5026741
+					62:[physical_activity_minutes_per_week<135] yes=125,no=126,missing=126,gain=5.99456787,cover=368.05188
+						125:leaf=-0.045620814,cover=11.879653
+						126:leaf=0.167613715,cover=356.172211
+
+
+===== Tree 3 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=5414.04883,cover=157696.812
+	1:[physical_activity_minutes_per_week<103] yes=3,no=4,missing=4,gain=1874.4043,cover=139777.031
+		3:[age<46] yes=7,no=8,missing=8,gain=1425.71729,cover=109329.625
+			7:[triglycerides<129] yes=15,no=16,missing=16,gain=390.490601,cover=39135.4883
+				15:[ldl_cholesterol<81] yes=31,no=32,missing=32,gain=196.355713,cover=23489.3438
+					31:[age<30] yes=63,no=64,missing=64,gain=46.449585,cover=4666.96777
+						63:leaf=-0.199455008,cover=651.031738
+						64:leaf=-0.112967826,cover=4015.93604
+					32:[physical_activity_minutes_per_week<56] yes=65,no=66,missing=66,gain=133.735596,cover=18822.377
+						65:leaf=-0.0250066947,cover=7429.10645
+						66:leaf=-0.0767461061,cover=11393.2695
+				16:[bmi<29.6000004] yes=33,no=34,missing=34,gain=153.29747,cover=15646.1426
+					33:[diet_score<7] yes=67,no=68,missing=68,gain=104.949905,cover=13274.2783
+						67:leaf=-0.00634924369,cover=10079.7217
+						68:leaf=-0.0687431097,cover=3194.5564
+					34:[age<28] yes=69,no=70,missing=70,gain=33.4622726,cover=2371.86475
+						69:leaf=-0.0913394541,cover=121.589806
+						70:leaf=0.0697092414,cover=2250.2749
+			8:[bmi<27.2000008] yes=17,no=18,missing=18,gain=627.750488,cover=70194.1406
+				17:[age<63] yes=35,no=36,missing=36,gain=414.875031,cover=46090.0938
+					35:[physical_activity_minutes_per_week<33] yes=71,no=72,missing=72,gain=282.209656,cover=36157.832
+						71:leaf=0.0755748749,cover=3197.24243
+						72:leaf=-0.0177637562,cover=32960.5898
+					36:[physical_activity_minutes_per_week<66] yes=73,no=74,missing=74,gain=87.5657349,cover=9932.25781
+						73:leaf=0.0852443948,cover=5452.25928
+						74:leaf=0.0286284331,cover=4479.99902
+				18:[physical_activity_minutes_per_week<57] yes=37,no=38,missing=38,gain=178.229614,cover=24104.0469
+					37:[age<65] yes=75,no=76,missing=76,gain=73.5288696,cover=10025.748
+						75:leaf=0.0835058615,cover=8181.12842
+						76:leaf=0.149841711,cover=1844.62
+					38:[physical_activity_minutes_per_week<61] yes=77,no=78,missing=78,gain=143.722382,cover=14078.2998
+						77:leaf=-0.0480725579,cover=1392.75598
+						78:leaf=0.0534250923,cover=12685.543
+		4:[age<54] yes=9,no=10,missing=10,gain=348.47583,cover=30447.4082
+			9:[diet_score<6] yes=19,no=20,missing=20,gain=176.769043,cover=19111
+				19:[physical_activity_minutes_per_week<194] yes=39,no=40,missing=40,gain=104.855957,cover=9235.41992
+					39:[ldl_cholesterol<82] yes=79,no=80,missing=80,gain=83.2458191,cover=7776.70996
+						79:leaf=-0.133864582,cover=1306.94519
+						80:leaf=-0.0508593619,cover=6469.76465
+					40:[triglycerides<159] yes=81,no=82,missing=82,gain=30.7793274,cover=1458.71057
+						81:leaf=-0.165628359,cover=1336.82983
+						82:leaf=-0.00808346551,cover=121.880707
+				20:[physical_activity_minutes_per_week<141] yes=41,no=42,missing=42,gain=69.1119385,cover=9875.5791
+					41:[triglycerides<101] yes=83,no=84,missing=84,gain=42.0908813,cover=5773.26172
+						83:leaf=-0.16237627,cover=1318.08838
+						84:leaf=-0.101261958,cover=4455.17334
+					42:[age<43] yes=85,no=86,missing=86,gain=43.5822754,cover=4102.31738
+						85:leaf=-0.199013546,cover=1936.01306
+						86:leaf=-0.13687022,cover=2166.3042
+			10:[triglycerides<114] yes=21,no=22,missing=22,gain=130.980881,cover=11336.4102
+				21:[ldl_cholesterol<117] yes=43,no=44,missing=44,gain=44.2382507,cover=4231.62207
+					43:[heart_rate<74] yes=87,no=88,missing=88,gain=38.1952209,cover=3139.8833
+						87:leaf=-0.0860015228,cover=2548.51147
+						88:leaf=-0.170695215,cover=591.371643
+					44:[diet_score<6.4000001] yes=89,no=90,missing=90,gain=15.9672413,cover=1091.73901
+						89:leaf=-0.00110806373,cover=635.66748
+						90:leaf=-0.0746267661,cover=456.071533
+				22:[bmi<30.1000004] yes=45,no=46,missing=46,gain=89.9843903,cover=7104.7876
+					45:[physical_activity_minutes_per_week<174] yes=91,no=92,missing=92,gain=70.0492249,cover=6334.74561
+						91:leaf=-0.0135025177,cover=5101.28271
+						92:leaf=-0.0931484848,cover=1233.46313
+					46:[triglycerides<174] yes=93,no=94,missing=94,gain=18.4656372,cover=770.04187
+						93:leaf=0.0583308749,cover=639.263916
+						94:leaf=0.181881964,cover=130.777954
+	2:[physical_activity_minutes_per_week<76] yes=5,no=6,missing=6,gain=263.363281,cover=17919.7793
+		5:[age<46] yes=11,no=12,missing=12,gain=110.035645,cover=10155.999
+			11:[triglycerides<129] yes=23,no=24,missing=24,gain=35.5060425,cover=3531.98096
+				23:[ldl_cholesterol<101] yes=47,no=48,missing=48,gain=21.1913452,cover=2041.43335
+					47:[triglycerides<64] yes=95,no=96,missing=96,gain=18.7012558,cover=1187.13831
+						95:leaf=-0.19583483,cover=18.7887135
+						96:leaf=0.0990367383,cover=1168.34961
+					48:[diet_score<4.5999999] yes=97,no=98,missing=98,gain=9.51722717,cover=854.295044
+						97:leaf=0.226203859,cover=147.539398
+						98:leaf=0.141494647,cover=706.755615
+				24:[age<25] yes=49,no=50,missing=50,gain=12.8933105,cover=1490.54761
+					49:[ldl_cholesterol<114] yes=99,no=100,missing=100,gain=5.30485964,cover=35.2033005
+						99:leaf=-0.048642192,cover=30.0338974
+						100:leaf=0.25594449,cover=5.16940117
+					50:[physical_activity_minutes_per_week<33] yes=101,no=102,missing=102,gain=12.3408813,cover=1455.34424
+						101:leaf=0.250522107,cover=227.903687
+						102:leaf=0.173483446,cover=1227.44055
+			12:[triglycerides<141] yes=25,no=26,missing=26,gain=40.996582,cover=6624.01855
+				25:[age<59] yes=51,no=52,missing=52,gain=34.3674316,cover=5002.54297
+					51:[physical_activity_minutes_per_week<33] yes=103,no=104,missing=104,gain=19.5853271,cover=3163.64282
+						103:leaf=0.235750303,cover=473.766754
+						104:leaf=0.169062525,cover=2689.87598
+					52:[age<69] yes=105,no=106,missing=106,gain=8.63269043,cover=1838.90002
+						105:leaf=0.219094574,cover=1406.35083
+						106:leaf=0.269145072,cover=432.549255
+				26:[ldl_cholesterol<73] yes=53,no=54,missing=54,gain=12.355835,cover=1621.47559
+					53:[heart_rate<73] yes=107,no=108,missing=108,gain=6.66368008,cover=32.2859688
+						107:leaf=0.171456501,cover=19.9093266
+						108:leaf=-0.100673698,cover=12.3766422
+					54:[cholesterol_total<188] yes=109,no=110,missing=110,gain=5.21289062,cover=1589.18958
+						109:leaf=0.2340547,cover=618.581665
+						110:leaf=0.27166909,cover=970.607971
+		6:[physical_activity_minutes_per_week<133] yes=13,no=14,missing=14,gain=98.6872559,cover=7763.7793
+			13:[age<49] yes=27,no=28,missing=28,gain=66.4561768,cover=6055.35059
+				27:[waist_to_hip_ratio<0.850000024] yes=55,no=56,missing=56,gain=37.0404663,cover=2755.85303
+					55:[age<33] yes=111,no=112,missing=112,gain=11.0777359,cover=1072.98865
+						111:leaf=-0.0194414109,cover=152.255325
+						112:leaf=0.0677965134,cover=920.733337
+					56:[ldl_cholesterol<79] yes=113,no=114,missing=114,gain=22.766449,cover=1682.86438
+						113:leaf=0.0313067473,cover=198.843979
+						114:leaf=0.139583766,cover=1484.02039
+				28:[triglycerides<135] yes=57,no=58,missing=58,gain=24.1863403,cover=3299.49731
+					57:[age<63] yes=115,no=116,missing=116,gain=15.3427734,cover=2260.92432
+						115:leaf=0.12995103,cover=1678.87817
+						116:leaf=0.186860472,cover=582.046265
+					58:[systolic_bp<120] yes=117,no=118,missing=118,gain=11.3155823,cover=1038.57288
+						117:leaf=0.162480563,cover=434.127228
+						118:leaf=0.22713989,cover=604.445618
+			14:[age<46] yes=29,no=30,missing=30,gain=25.8934746,cover=1708.42883
+				29:[triglycerides<141] yes=59,no=60,missing=60,gain=20.6267242,cover=657.872314
+					59:[heart_rate<66] yes=119,no=120,missing=120,gain=11.3838148,cover=527.219482
+						119:leaf=0.0206163842,cover=276.363129
+						120:leaf=-0.0675044879,cover=250.856354
+					60:[diet_score<6.69999981] yes=121,no=122,missing=122,gain=8.82002258,cover=130.652832
+						121:leaf=0.160499513,cover=93.0125198
+						122:leaf=-0.011070854,cover=37.6403122
+				30:[age<65] yes=61,no=62,missing=62,gain=12.4366074,cover=1050.55652
+					61:[physical_activity_minutes_per_week<217] yes=123,no=124,missing=124,gain=9.03899384,cover=869.839783
+						123:leaf=0.0821756795,cover=679.36438
+						124:leaf=0.00819288474,cover=190.475388
+					62:[systolic_bp<133] yes=125,no=126,missing=126,gain=4.5965004,cover=180.71669
+						125:leaf=0.122596852,cover=133.907288
+						126:leaf=0.233838856,cover=46.8094101
+
+
+===== Tree 4 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=3015.44824,cover=155298.891
+	1:[ldl_cholesterol<117] yes=3,no=4,missing=4,gain=1137.91284,cover=138982.719
+		3:[physical_activity_minutes_per_week<66] yes=7,no=8,missing=8,gain=857.691345,cover=106191.281
+			7:[physical_activity_minutes_per_week<61] yes=15,no=16,missing=16,gain=401.722168,cover=44795.6211
+				15:[physical_activity_minutes_per_week<59] yes=31,no=32,missing=32,gain=894.308533,cover=39028.3984
+					31:[waist_to_hip_ratio<0.850000024] yes=63,no=64,missing=64,gain=274.532318,cover=36465.6602
+						63:leaf=-0.0276522078,cover=14168.5898
+						64:leaf=0.0257500838,cover=22297.0723
+					32:[physical_activity_minutes_per_week<60] yes=65,no=66,missing=66,gain=176.544495,cover=2562.73779
+						65:leaf=-0.111581124,cover=1493.81116
+						66:leaf=-0.271365285,cover=1068.92676
+				16:[physical_activity_minutes_per_week<63] yes=33,no=34,missing=34,gain=259.817841,cover=5767.2207
+					33:[bmi<22.2999992] yes=67,no=68,missing=68,gain=27.4020996,cover=2022.57422
+						67:leaf=0.0678162798,cover=235.480301
+						68:leaf=0.17707403,cover=1787.09387
+					34:[physical_activity_minutes_per_week<64] yes=69,no=70,missing=70,gain=60.603775,cover=3744.64673
+						69:leaf=0.0767900124,cover=1532.80078
+						70:leaf=-0.000811573467,cover=2211.84595
+			8:[physical_activity_minutes_per_week<68] yes=17,no=18,missing=18,gain=643.235352,cover=61395.6602
+				17:[physical_activity_minutes_per_week<67] yes=35,no=36,missing=36,gain=134.575439,cover=1798.95459
+					35:[bmi<26.7000008] yes=71,no=72,missing=72,gain=22.7855225,cover=709.578247
+						71:leaf=-0.294284254,cover=511.440979
+						72:leaf=-0.416978061,cover=198.137253
+					36:[hdl_cholesterol<46] yes=73,no=74,missing=74,gain=29.6270142,cover=1089.37634
+						73:leaf=-0.0149306068,cover=112.399765
+						74:leaf=-0.177702561,cover=976.976624
+				18:[physical_activity_minutes_per_week<133] yes=37,no=38,missing=38,gain=406.98938,cover=59596.707
+					37:[triglycerides<106] yes=75,no=76,missing=76,gain=274.549072,cover=48101.0547
+						75:leaf=-0.0714587793,cover=12521.1084
+						76:leaf=-0.0198076386,cover=35579.9453
+					38:[heart_rate<58] yes=77,no=78,missing=78,gain=114.959106,cover=11495.6523
+						77:leaf=-0.0127545875,cover=1319.30579
+						78:leaf=-0.106886409,cover=10176.3457
+		4:[physical_activity_minutes_per_week<66] yes=9,no=10,missing=10,gain=229.026154,cover=32791.4453
+			9:[physical_activity_minutes_per_week<61] yes=19,no=20,missing=20,gain=120.458923,cover=14713.0674
+				19:[physical_activity_minutes_per_week<59] yes=39,no=40,missing=40,gain=203.768677,cover=12771.5449
+					39:[diet_score<6.0999999] yes=79,no=80,missing=80,gain=94.8925781,cover=11953.9521
+						79:leaf=0.0876529738,cover=6546.23438
+						80:leaf=0.0339429341,cover=5407.71826
+					40:[physical_activity_minutes_per_week<60] yes=81,no=82,missing=82,gain=39.5182419,cover=817.592712
+						81:leaf=-0.0358111411,cover=479.201019
+						82:leaf=-0.169706479,cover=338.391724
+				20:[physical_activity_minutes_per_week<63] yes=41,no=42,missing=42,gain=47.7641602,cover=1941.52234
+					41:[physical_activity_minutes_per_week<62] yes=83,no=84,missing=84,gain=20.7748413,cover=691.585571
+						83:leaf=0.152141035,cover=402.369781
+						84:leaf=0.258476704,cover=289.21579
+					42:[bmi<22.7999992] yes=85,no=86,missing=86,gain=12.0073242,cover=1249.93677
+						85:leaf=-0.0111035034,cover=83.7215729
+						86:leaf=0.106386982,cover=1166.21509
+			10:[physical_activity_minutes_per_week<67] yes=21,no=22,missing=22,gain=176.221771,cover=18078.3789
+				21:[sleep_hours_per_day<5.30000019] yes=43,no=44,missing=44,gain=7.80912781,cover=175.817001
+					43:[diastolic_bp<78] yes=87,no=88,missing=88,gain=3.18391061,cover=6.69629145
+						87:leaf=-0.148234993,cover=3.5351367
+						88:leaf=0.215628982,cover=3.16115499
+					44:[triglycerides<133] yes=89,no=90,missing=90,gain=5.79348755,cover=169.120712
+						89:leaf=-0.253970683,cover=114.846985
+						90:leaf=-0.381549656,cover=54.2737312
+				22:[bmi<28.8999996] yes=45,no=46,missing=46,gain=146.84729,cover=17902.5605
+					45:[age<69] yes=91,no=92,missing=92,gain=103.174133,cover=13964.5234
+						91:leaf=-0.00577039924,cover=12763.1816
+						92:leaf=0.086156033,cover=1201.34241
+					46:[diet_score<6] yes=93,no=94,missing=94,gain=45.682251,cover=3938.03735
+						93:leaf=0.0927726328,cover=2459.78149
+						94:leaf=0.0260260236,cover=1478.25598
+	2:[physical_activity_minutes_per_week<95] yes=5,no=6,missing=6,gain=190.634277,cover=16316.1602
+		5:[age<59] yes=11,no=12,missing=12,gain=113.604736,cover=11933.6934
+			11:[ldl_cholesterol<120] yes=23,no=24,missing=24,gain=68.8149414,cover=9159.34375
+				23:[triglycerides<140] yes=47,no=48,missing=48,gain=46.1062012,cover=7576.00049
+					47:[physical_activity_minutes_per_week<57] yes=95,no=96,missing=96,gain=34.2558594,cover=5855.7666
+						95:leaf=0.127387032,cover=2704.87939
+						96:leaf=0.0812918544,cover=3150.88745
+					48:[age<25] yes=97,no=98,missing=98,gain=16.8215027,cover=1720.23352
+						97:leaf=-0.0783237517,cover=26.0220394
+						98:leaf=0.162224501,cover=1694.21155
+				24:[physical_activity_minutes_per_week<33] yes=49,no=50,missing=50,gain=11.3447266,cover=1583.34375
+					49:[sleep_hours_per_day<5.0999999] yes=99,no=100,missing=100,gain=2.49467468,cover=178.127991
+						99:leaf=-0.04953143,cover=2.07421637
+						100:leaf=0.260185093,cover=176.053787
+					50:[physical_activity_minutes_per_week<35] yes=101,no=102,missing=102,gain=14.4794312,cover=1405.21582
+						101:leaf=-0.0661674663,cover=21.6155815
+						102:leaf=0.178649962,cover=1383.60022
+			12:[age<71] yes=25,no=26,missing=26,gain=20.7163086,cover=2774.34888
+				25:[bmi<26.8999996] yes=51,no=52,missing=52,gain=17.2644653,cover=2342.3147
+					51:[physical_activity_minutes_per_week<74] yes=103,no=104,missing=104,gain=12.1060486,cover=1412.8075
+						103:leaf=0.180912659,cover=1036.06909
+						104:leaf=0.117413513,cover=376.738342
+					52:[hdl_cholesterol<68] yes=105,no=106,missing=106,gain=2.8359375,cover=929.507263
+						105:leaf=0.220194712,cover=902.791748
+						106:leaf=0.114152171,cover=26.7155018
+				26:[ldl_cholesterol<72] yes=53,no=54,missing=54,gain=5.58435059,cover=432.034119
+					53:[systolic_bp<123] yes=107,no=108,missing=108,gain=4.88903475,cover=4.97069359
+						107:leaf=-0.376707196,cover=1.52503824
+						108:leaf=0.147265837,cover=3.44565558
+					54:[bmi<20.1000004] yes=109,no=110,missing=110,gain=3.11099243,cover=427.063416
+						109:leaf=0.0318293907,cover=5.55358553
+						110:leaf=0.264049053,cover=421.509827
+		6:[physical_activity_minutes_per_week<169] yes=13,no=14,missing=14,gain=42.5736542,cover=4382.4668
+			13:[triglycerides<125] yes=27,no=28,missing=28,gain=35.6257935,cover=3604.72974
+				27:[heart_rate<68] yes=55,no=56,missing=56,gain=23.0544357,cover=1999.06104
+					55:[age<37] yes=111,no=112,missing=112,gain=17.4746552,cover=838.485535
+						111:leaf=-0.0105235791,cover=120.680748
+						112:leaf=0.112763084,cover=717.804749
+					56:[ldl_cholesterol<116] yes=113,no=114,missing=114,gain=14.0665817,cover=1160.57544
+						113:leaf=0.0125328042,cover=914.138794
+						114:leaf=0.0931823552,cover=246.436691
+				28:[systolic_bp<129] yes=57,no=58,missing=58,gain=19.4462738,cover=1605.6687
+					57:[age<27] yes=115,no=116,missing=116,gain=12.3862152,cover=1353.52356
+						115:leaf=-0.101404049,cover=25.4762192
+						116:leaf=0.106802091,cover=1328.04736
+					58:[sleep_hours_per_day<8.80000019] yes=117,no=118,missing=118,gain=3.97829437,cover=252.145157
+						117:leaf=0.198866263,cover=247.625977
+						118:leaf=-0.0717601329,cover=4.51916695
+			14:[systolic_bp<138] yes=29,no=30,missing=30,gain=16.3810329,cover=777.737061
+				29:[bmi<28.3999996] yes=59,no=60,missing=60,gain=12.6240416,cover=758.308777
+					59:[ldl_cholesterol<95] yes=119,no=120,missing=120,gain=11.1818018,cover=648.187927
+						119:leaf=-0.0643070266,cover=262.116638
+						120:leaf=0.0158582702,cover=386.071289
+					60:[diastolic_bp<69] yes=121,no=122,missing=122,gain=6.35566235,cover=110.120857
+						121:leaf=-0.124565877,cover=10.148201
+						122:leaf=0.11590261,cover=99.9726562
+				30:[alcohol_consumption_per_week<2] yes=61,no=62,missing=62,gain=2.64082146,cover=19.4282703
+					61:[hypertension_history<1] yes=123,no=124,missing=124,gain=4.59551811,cover=6.27792597
+						123:leaf=0.223083511,cover=4.91829729
+						124:leaf=-0.276470274,cover=1.35962903
+					62:[bmi<31.3999996] yes=125,no=126,missing=126,gain=0.554597855,cover=13.1503448
+						125:leaf=0.362912506,cover=12.1030931
+						126:leaf=0.0613342896,cover=1.04725194
+
+
+===== Tree 5 =====
+0:[family_history_diabetes<1] yes=1,no=2,missing=2,gain=1650.88147,cover=153538.547
+	1:[age<46] yes=3,no=4,missing=4,gain=840.107971,cover=138465.125
+		3:[age<28] yes=7,no=8,missing=8,gain=349.052979,cover=50260.0508
+			7:[age<26] yes=15,no=16,missing=16,gain=46.6904297,cover=3152.97437
+				15:[waist_to_hip_ratio<0.860000014] yes=31,no=32,missing=32,gain=21.9257202,cover=1809.21472
+					31:[ldl_cholesterol<121] yes=63,no=64,missing=64,gain=10.7606812,cover=908.145447
+						63:leaf=-0.207211569,cover=874.738403
+						64:leaf=-0.032655146,cover=33.4070168
+					32:[systolic_bp<113] yes=65,no=66,missing=66,gain=14.6477051,cover=901.069336
+						65:leaf=-0.118601397,cover=774.549194
+						66:leaf=-0.229065731,cover=126.520172
+				16:[physical_activity_minutes_per_week<133] yes=33,no=34,missing=34,gain=12.7869568,cover=1343.75952
+					33:[hdl_cholesterol<45] yes=67,no=68,missing=68,gain=16.1880493,cover=1199.30383
+						67:leaf=0.00715307798,cover=154.147598
+						68:leaf=-0.0969375521,cover=1045.15625
+					34:[bmi<21.2000008] yes=69,no=70,missing=70,gain=8.52062225,cover=144.455734
+						69:leaf=0.0397972651,cover=14.2344027
+						70:leaf=-0.202048227,cover=130.221329
+			8:[hdl_cholesterol<51] yes=17,no=18,missing=18,gain=232.218567,cover=47107.0781
+				17:[physical_activity_minutes_per_week<95] yes=35,no=36,missing=36,gain=105.137672,cover=16073.9072
+					35:[physical_activity_minutes_per_week<93] yes=71,no=72,missing=72,gain=68.717598,cover=11560.9365
+						71:leaf=0.00754509727,cover=11282.4111
+						72:leaf=0.158123717,cover=278.524811
+					36:[waist_to_hip_ratio<0.930000007] yes=73,no=74,missing=74,gain=37.9700165,cover=4512.97119
+						73:leaf=-0.0491138436,cover=4287.63379
+						74:leaf=0.0769956931,cover=225.337326
+				18:[physical_activity_minutes_per_week<141] yes=37,no=38,missing=38,gain=130.739136,cover=31033.1699
+					37:[diet_score<6] yes=75,no=76,missing=76,gain=119.171204,cover=28155.2129
+						75:leaf=-0.0219269842,cover=13565.0684
+						76:leaf=-0.0609900281,cover=14590.1455
+					38:[heart_rate<67] yes=77,no=78,missing=78,gain=31.294281,cover=2877.95679
+						77:leaf=-0.0843574554,cover=1764.34851
+						78:leaf=-0.148698658,cover=1113.60828
+		4:[triglycerides<141] yes=9,no=10,missing=10,gain=555.539856,cover=88205.0781
+			9:[hdl_cholesterol<51] yes=19,no=20,missing=20,gain=355.114807,cover=69006.7109
+				19:[age<69] yes=39,no=40,missing=40,gain=102.450348,cover=22559.5273
+					39:[physical_activity_minutes_per_week<112] yes=79,no=80,missing=80,gain=82.6088181,cover=20859.2754
+						79:leaf=0.0298342258,cover=17410.1348
+						80:leaf=-0.0209801272,cover=3449.1394
+					40:[triglycerides<111] yes=81,no=82,missing=82,gain=17.4025269,cover=1700.25146
+						81:leaf=0.0568021163,cover=600.914001
+						82:leaf=0.120442972,cover=1099.33752
+				20:[physical_activity_minutes_per_week<76] yes=41,no=42,missing=42,gain=275.307465,cover=46447.1836
+					41:[physical_activity_minutes_per_week<32] yes=83,no=84,missing=84,gain=112.101944,cover=24486.0703
+						83:leaf=0.0584967323,cover=2906.96436
+						84:leaf=-0.0042489781,cover=21579.1074
+					42:[age<66] yes=85,no=86,missing=86,gain=97.0447388,cover=21961.1113
+						85:leaf=-0.0510086231,cover=18949.6543
+						86:leaf=0.00696464442,cover=3011.45703
+			10:[diet_score<6] yes=21,no=22,missing=22,gain=134.08783,cover=19198.3711
+				21:[bmi<30.3999996] yes=43,no=44,missing=44,gain=83.6306152,cover=10723.9736
+					43:[physical_activity_minutes_per_week<33] yes=87,no=88,missing=88,gain=52.5320435,cover=8767.68945
+						87:leaf=0.147552818,cover=625.04248
+						88:leaf=0.0573332533,cover=8142.64697
+					44:[triglycerides<161] yes=89,no=90,missing=90,gain=16.741333,cover=1956.28406
+						89:leaf=0.103905357,cover=960.047302
+						90:leaf=0.159712896,cover=996.236694
+				22:[triglycerides<146] yes=45,no=46,missing=46,gain=58.3488464,cover=8474.39648
+					45:[physical_activity_minutes_per_week<77] yes=91,no=92,missing=92,gain=23.1184998,cover=2025.85229
+						91:leaf=0.0985225514,cover=1137.53552
+						92:leaf=0.0338929631,cover=888.316711
+					46:[triglycerides<157] yes=93,no=94,missing=94,gain=67.1200714,cover=6448.54443
+						93:leaf=-0.0183626693,cover=3265.10034
+						94:leaf=0.0428468734,cover=3183.44434
+	2:[age<42] yes=5,no=6,missing=6,gain=138.578979,cover=15073.4141
+		5:[bmi<27] yes=11,no=12,missing=12,gain=42.8290329,cover=3871.77148
+			11:[ldl_cholesterol<77] yes=23,no=24,missing=24,gain=28.2568684,cover=2677.13257
+				23:[systolic_bp<97] yes=47,no=48,missing=48,gain=15.6553812,cover=418.118469
+					47:[heart_rate<80] yes=95,no=96,missing=96,gain=6.02928734,cover=49.0959625
+						95:leaf=-0.236047313,cover=44.6724281
+						96:leaf=0.110773258,cover=4.42353535
+					48:[systolic_bp<123] yes=97,no=98,missing=98,gain=11.0210772,cover=369.022491
+						97:leaf=-0.0122105405,cover=350.760712
+						98:leaf=-0.24533686,cover=18.261776
+				24:[physical_activity_minutes_per_week<133] yes=49,no=50,missing=50,gain=19.9839821,cover=2259.01416
+					49:[screen_time_hours_per_day<7.5] yes=99,no=100,missing=100,gain=12.0285454,cover=1976.18005
+						99:leaf=0.0366071947,cover=1508.42383
+						100:leaf=0.0916849077,cover=467.756226
+					50:[bmi<20.1000004] yes=101,no=102,missing=102,gain=7.51154423,cover=282.834015
+						101:leaf=0.179158151,cover=12.995717
+						102:leaf=-0.0464379936,cover=269.838318
+			12:[physical_activity_minutes_per_week<57] yes=25,no=26,missing=26,gain=15.1785202,cover=1194.63892
+				25:[systolic_bp<93] yes=51,no=52,missing=52,gain=12.055748,cover=392.230957
+					51:[ldl_cholesterol<92] yes=103,no=104,missing=104,gain=3.84281397,cover=3.2187717
+						103:leaf=-0.651979446,cover=1.13137698
+						104:leaf=-0.051435288,cover=2.08739448
+					52:[systolic_bp<103] yes=105,no=106,missing=106,gain=5.5330658,cover=389.012177
+						105:leaf=0.0703384206,cover=70.816803
+						106:leaf=0.164490402,cover=318.195374
+				26:[diet_score<7.30000019] yes=53,no=54,missing=54,gain=14.4572639,cover=802.40802
+					53:[age<27] yes=107,no=108,missing=108,gain=10.0009918,cover=682.488159
+						107:leaf=-0.0417370163,cover=49.7110558
+						108:leaf=0.0972988978,cover=632.7771
+					54:[triglycerides<103] yes=109,no=110,missing=110,gain=5.87675428,cover=119.919838
+						109:leaf=-0.220839888,cover=11.449851
+						110:leaf=-0.00318683824,cover=108.469986
+		6:[physical_activity_minutes_per_week<76] yes=13,no=14,missing=14,gain=110.553223,cover=11201.6426
+			13:[triglycerides<132] yes=27,no=28,missing=28,gain=38.7369385,cover=6120.35498
+				27:[ldl_cholesterol<121] yes=55,no=56,missing=56,gain=19.9776001,cover=3812.64502
+					55:[bmi<19.7999992] yes=111,no=112,missing=112,gain=16.1170349,cover=3131.22729
+						111:leaf=-0.0351988822,cover=65.9965591
+						112:leaf=0.114172377,cover=3065.23071
+					56:[triglycerides<54] yes=113,no=114,missing=114,gain=9.00033569,cover=681.417786
+						113:leaf=-0.304082096,cover=2.74599957
+						114:leaf=0.170245022,cover=678.671814
+				28:[age<68] yes=57,no=58,missing=58,gain=13.8718872,cover=2307.70996
+					57:[physical_activity_minutes_per_week<32] yes=115,no=116,missing=116,gain=13.3195801,cover=2091.03711
+						115:leaf=0.221599042,cover=302.58902
+						116:leaf=0.152891219,cover=1788.448
+					58:[screen_time_hours_per_day<5.30000019] yes=117,no=118,missing=118,gain=2.90333557,cover=216.672989
+						117:leaf=0.192436844,cover=80.0251236
+						118:leaf=0.271682322,cover=136.647873
+			14:[ldl_cholesterol<94] yes=29,no=30,missing=30,gain=40.3244629,cover=5081.28711
+				29:[age<61] yes=59,no=60,missing=60,gain=16.0781345,cover=1514.46606
+					59:[triglycerides<163] yes=119,no=120,missing=120,gain=12.604537,cover=1259.26758
+						119:leaf=0.0192835294,cover=1217.04602
+						120:leaf=0.184185386,cover=42.2215118
+					60:[smoking_status<1] yes=121,no=122,missing=122,gain=4.95982361,cover=255.198532
+						121:leaf=-0.00369725539,cover=31.616396
+						122:leaf=0.123098679,cover=223.582123
+				30:[bmi<29] yes=61,no=62,missing=62,gain=22.4936218,cover=3566.82104
+					61:[age<70] yes=123,no=124,missing=124,gain=19.6913757,cover=3011.7356
+						123:leaf=0.0804755539,cover=2806.27466
+						124:leaf=0.176676124,cover=205.460938
+					62:[physical_activity_minutes_per_week<119] yes=125,no=126,missing=126,gain=13.0273895,cover=555.085449
+						125:leaf=0.182383835,cover=393.518951
+						126:leaf=0.0804679394,cover=161.566498
